@@ -12,6 +12,14 @@
   padding-top:1%;
 }
 
+#canvas {
+  padding-top:1.2%; /*removes padding above logo */
+}
+
+#header {
+  margin-bottom:1.5%;
+}
+
 /* CLASS NAV */
 .logo-subtitle { 
   display:none;
