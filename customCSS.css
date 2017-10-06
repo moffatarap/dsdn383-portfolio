@@ -1,26 +1,69 @@
-/* DSDN 383 INTRO To Prof moffatarap (300317288) */
-
-/** MAIN PAGE INDEX **/
-
-/* ID NAV */
-#topNav {
-  /*display:none; */
-  padding-top:0px;
+@font-face {
+  font-family: 'AvenirLTStd-Heavy';
+  src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d8020a46c3c4655ad11d46/1507328522601/AvenirLTStd-Heavy.otf');
+   font-weight: 400;
+   font-style: normal;
 }
 
-#page {
-  padding-top:1%;
+@font-face {
+  font-family: 'AvenirLTStd-Book';
+  src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d80202b1ffb6b103840288/1507328514415/AvenirLTStd-Book.otf');
+   font-weight: 400;
+   font-style: normal;
 }
 
-#canvas {
-  padding-top:1.2%; /*removes padding above logo */
+@font-face {
+  font-family: 'AvenirLTStd-Roman';
+  src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d8022af7e0ab21edbbb454/1507328554212/AvenirLTStd-Roman.otf');
+   font-weight: 400;
+   font-style: normal;
 }
 
-#header {
-  margin-bottom:1.5%;
+@font-face {
+  font-family: 'AvenirLTStd-Light';
+  src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d8021b268b96ed79bbde72/1507328539271/AvenirLTStd-Light.otf');
+   font-weight: 400;
+   font-style: normal;
 }
 
-/* CLASS NAV */
-.logo-subtitle { 
-  display:none;
+/* nav MENU */
+.layout-style-center #topNav nav li a {
+  font-family:'AvenirLTStd-Heavy';
+ }
+
+
+/* Headings */
+h1 {
+  font-family: 'AvenirLTStd-Heavy';  
 }
+
+h2 {
+  font-family: 'AvenirLTStd-Heavy';  
+}
+
+h3 {
+  font-family: 'AvenirLTStd-Heavy';  
+}
+
+h4 {
+  font-family: 'AvenirLTStd-Heavy';  
+}
+
+h5 {
+  font-family: 'AvenirLTStd-Heavy';  
+}
+
+h6 {
+  font-family: 'AvenirLTStd-Heavy';  
+}
+
+p {
+  font-family: 'AvenirLTStd-Light';
+}
+
+.sqs-block-button .sqs-block-button-element--small {
+  font-family: 'AvenirLTStd-Light';
+}
+
+
+
