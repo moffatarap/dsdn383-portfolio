@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'AvenirLTStd-Black';
+  src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d80eede5dd5b95992bb09d/1507331822340/AvenirLTStd-Black.otf');
+   font-style: normal;
+}
+
+
+@font-face {
   font-family: 'AvenirLTStd-Heavy';
   src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d8020a46c3c4655ad11d46/1507328522601/AvenirLTStd-Heavy.otf');
    font-weight: 400;
@@ -26,19 +33,91 @@
    font-style: normal;
 }
 
+@font-face {
+  font-family: 'AvenirLTStd-Light-LightOblique';
+  src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d80d8e4c326d0fa4a42d83/1507331470768/AvenirLTStd-LightOblique.otf');
+   font-weight: 400;
+   font-style: normal;
+}
+
 /* nav MENU */
 .layout-style-center #topNav nav li a {
   font-family:'AvenirLTStd-Heavy';
  }
 
+/* LOGO BAR*/
+#logo {
+   text-align:right !important;
+   /* background-color:beige;*/
+   
+
+  
+}
+
+.site-title .logo {
+  font-family: 'AvenirLTStd-Heavy';
+  letter-spacing: 0px !important;
+  border:1px solid green;
+  margin-right:10px !important;
+  
+  
+}
+
+
+/* NAV BAR TOP */
+.layout-style-center #logo, .layout-style-center #topNav {
+  border:1px solid purple;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+
+/* NAV BAR BOTTOM */
+
+#topNav {
+  text-align:left !important;
+  border:2px blanchedalmond;
+  
+  /* background-color:orange;*/
+}
+
+
+/* NAV TEXT */
+.main-nav {
+  padding-left:1%;
+}
+
+header {
+  background-color:#876293;
+  border: 1px solid white;
+}
+
+
+#header {
+  border-top:none;
+  
+}
+
+/* EEL VIDEO */
+.fullscreenVideo {
+  width:100%;
+  
+}
+
+video:hover {
+  border:2px solid pink;
+  loop
+}
 
 /* Headings */
 h1 {
-  font-family: 'AvenirLTStd-Heavy';  
+  font-family: 'AvenirLTStd-Heavy'; 
+  
 }
 
+
 h2 {
-  font-family: 'AvenirLTStd-Heavy';  
+  font-family: 'AvenirLTStd-Heavy';
+  
 }
 
 h3 {
@@ -61,8 +140,9 @@ p {
   font-family: 'AvenirLTStd-Light';
 }
 
+/* BUTTON TEXT */
 .sqs-block-button .sqs-block-button-element--small {
-  font-family: 'AvenirLTStd-Light';
+  font-family: 'AvenirLTStd-Light-LightOblique';
 }
 
 
