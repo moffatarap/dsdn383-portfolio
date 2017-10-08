@@ -40,6 +40,12 @@
    font-style: normal;
 }
 
+/* HIDE SCROLL BAR */
+:-webkit-scrollbar { 
+  display: none;
+}
+
+
 /* nav MENU */
 .layout-style-center #topNav nav li a {
   font-family:'AvenirLTStd-Heavy';
@@ -55,11 +61,6 @@ border:0;
   
   
 }
-
-.main-nav ul li:hover {
-  background-color:azure;
-}
-
 
 /* LOGO BAR*/
 #logo {
@@ -455,7 +456,7 @@ p {
   display:inline-block;
   text-align:center;
   font-family: 'AvenirLTStd-Heavy';
-  padding:0.2% 1% 0.2% 1%;
+  padding:1% 1% 1% 1%;
   margin-bottom:1%;
   text-align: center; 
   /* border:1px solid blue; */
@@ -467,6 +468,8 @@ p {
   padding:0 !important;
   width:100%;  
   text-align: center;
+  
+  
   
   /* border:1px solid pink; */
   
@@ -494,7 +497,7 @@ p {
 /* FOOTER */
 
 #header {
- 
+
 
 }
 #topNav {
@@ -502,7 +505,7 @@ p {
   
 }
 footer {
-  /* background-color:#83A7CD; */
+  
 }
 
 #footerBlock {
@@ -513,9 +516,7 @@ footer {
   
 }
 
-#canvas {
-  /* background-color:#f0f0f0 !important; */
-}
+
 
 /* HIDE */
 #block-yui_3_17_2_11_1507424073268_14124 {
