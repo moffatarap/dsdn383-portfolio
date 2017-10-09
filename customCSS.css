@@ -1,3 +1,8 @@
+/* DSDN 383 ARAPAOA DESIGN */
+/* HIDE SCROLL BAR */
+::-webkit-scrollbar { 
+    display: none; 
+}
 @font-face {
   font-family: 'AvenirLTStd-Black';
   src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d80eede5dd5b95992bb09d/1507331822340/AvenirLTStd-Black.otf');
@@ -51,6 +56,38 @@
   font-family:'AvenirLTStd-Heavy';
  }
 
+/* A ACTIVE LANDING PAGE  NAV */
+#collection-598fc78fd482e9b47f7086d5 #topNav li:first-child a {
+  color:#876293 !important;
+}
+
+/* A ACTIVE LANDING PAGE  NAV FOOTER */
+#collection-598fc78fd482e9b47f7086d5 #footerNavUl li:first-child a {
+  color:#876293 !important;
+}
+
+/* A ACTIVE PHOTOGRAPHY NAV FOOTER */
+#collection-5990f9427131a56b5daa7aef #footerNavUl li:nth-child(2) a {
+  color:#876293 !important;
+}
+
+/* A ACTIVE VIDEOGRAPHY NAV FOOTER */
+#collection-5990f2aa893fc0867d8bb60d #footerNavUl li:nth-child(3) a {
+  color:#876293 !important;
+}
+
+/* A ACTIVE WEB DESIGN NAV FOOTER */
+#collection-5990fb424c0dbfafe1fcf184 #footerNavUl li:nth-child(4) a {
+  color:#876293 !important;
+}
+
+/* A ACTIVE ABOUT  NAV FOOTER */
+#collection-58a617c386e6c09b3656ff80 #footerNavUl li:nth-child(5) a {
+  color:#876293 !important;
+}
+
+
+
 /* HIDE BORDER MAIN PAGE */
 .page-divider{ 
 border:0;
@@ -58,8 +95,7 @@ border:0;
 
 .main-nav ul li {
   /* border:2px solid green; */
-  
-  
+    
 }
 
 /* LOGO BAR*/
@@ -111,6 +147,16 @@ header {
 
 #header {
   
+  
+}
+
+/* SPACER BLOCK */
+/* LANDING PAGE*/
+#collection-598fc78fd482e9b47f7086d5 .spacer-block {
+  /* border:1px solid green; */
+  height:10px !important;
+  padding:0;
+  margin:0;
   
 }
 
@@ -171,6 +217,10 @@ header {
   
 	-webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; 
+}
+
+#collection-598fc78fd482e9b47f7086d5 .fullscreenVideo:hover {
+  display:none;
 }
 
 /* TRANSITION TO 0 */
@@ -535,6 +585,8 @@ footer {
 #mobileNav a {
   font-family: 'AvenirLTStd-Roman';
 }
+
+
 
 
 
