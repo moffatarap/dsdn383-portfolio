@@ -160,12 +160,6 @@ header {
   
 }
 
-/* EEL VIDEO */
-.fullscreenVideo {
-  width:100%;
-  
-}
-
 /* REMOVE A UNDERLINE */
 .underline-body-links .html-block a {
   border-bottom:0;
@@ -212,24 +206,26 @@ header {
 /* VIDEOGRAPHY */
 
 #collection-598fc78fd482e9b47f7086d5 video:hover {
-  -webkit-filter: saturate(1.3);
-  filter: saturate(1.3);
+  -webkit-filter: saturate(0);
+  filter: saturate(0);
   
 	-webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; 
-}
-
-#collection-598fc78fd482e9b47f7086d5 .fullscreenVideo:hover {
-  display:none;
-}
+} 
 
 /* TRANSITION TO 0 */
 #collection-598fc78fd482e9b47f7086d5 video {
-   -webkit-filter: saturate(0);
-  filter: saturate(0);
+   -webkit-filter: saturate(1);
+  filter: saturate(1);
   
 	-webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out; 
+} 
+
+/* EEL VIDEO */
+.fullscreenVideo {
+  width:100%;
+  
 }
 
 /* THE LAST STAND DEVELOPEMNT PAGE */
