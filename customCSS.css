@@ -1,8 +1,5 @@
 /* DSDN 383 ARAPAOA DESIGN */
 /* HIDE SCROLL BAR */
-::-webkit-scrollbar { 
-    display: none; 
-}
 @font-face {
   font-family: 'AvenirLTStd-Black';
   src: url('https://static1.squarespace.com/static/58a6174d37c58153e1ca498f/t/59d80eede5dd5b95992bb09d/1507331822340/AvenirLTStd-Black.otf');
@@ -46,7 +43,7 @@
 }
 
 /* HIDE SCROLL BAR */
-:-webkit-scrollbar { 
+::-webkit-scrollbar { 
   display: none;
 }
 
@@ -59,6 +56,20 @@
 #collection-598fc78fd482e9b47f7086d5 #topNav li:first-child a {
   color:#876293 !important;
   display:none;
+}
+/* VIDEO LAST STAND */
+#collection-59d03f6a32601e11ca6009c3 #topNav li:nth-child(3) a {
+  color:#876293 !important;  
+}
+
+/* VIDEO A MIND INSIDE */
+#collection-59d5574d49fc2b7b4fc0a40b #topNav li:nth-child(3) a {
+  color:#876293 !important;  
+}
+
+/* DISASTER ZONE */
+#collection-59d2ff6ef43b554a111d34ef #topNav li:nth-child(4) a {
+  color:#876293 !important;
 }
 
 /* A ACTIVE LANDING PAGE  NAV FOOTER */
@@ -77,17 +88,39 @@
   color:#876293 !important;
 }
 
+/* VIDEO LAST STAND */
+#collection-59d03f6a32601e11ca6009c3 #footerNavUl li:nth-child(3) a {
+  color:#876293 !important;
+}
+
+/* VIDEO A MIND INSIDE */
+#collection-59d5574d49fc2b7b4fc0a40b #footerNavUl li:nth-child(3) a {
+  color:#876293 !important; }
+
 /* A ACTIVE WEB DESIGN NAV FOOTER */
 #collection-5990fb424c0dbfafe1fcf184 #footerNavUl li:nth-child(4) a {
   color:#876293 !important;
 }
 
-/* A ACTIVE ABOUT  NAV FOOTER */
-#collection-58a617c386e6c09b3656ff80 #footerNavUl li:nth-child(5) a {
+/* DISASTER ZONE */
+
+#collection-59d2ff6ef43b554a111d34ef #footerNavUl li:nth-child(4) a {
   color:#876293 !important;
 }
 
+/* A ACTIVE CONTACT  NAV FOOTER */
+#collection-59daca93a8b2b06fbe132c16 #footerNavUl li:nth-child(5) a {
+  color:#876293 !important;
+}
+/* hide get in touch on contact page */
+#collection-59daca93a8b2b06fbe132c16 .sqs-block-button-element--small.sqs-block-button-element.sqs-block-button-element {
+  display:none;
+}
 
+/* HIDE CONTACT HEADER */
+#collection-59daca93a8b2b06fbe132c16 h3 {
+  
+}
 
 /* HIDE BORDER MAIN PAGE */
 .page-divider{ 
@@ -124,8 +157,8 @@ border:0;
 /* NAV BAR TOP */
 #topNav {
   text-align: center !important;
-  padding-top:0.5%;
   padding-bottom:2%;
+  
   
   
   /*  border:1px solid purple; */
@@ -187,6 +220,26 @@ header {
 
 
 /* HOVER EFFECTS */
+
+/* WEB DESIGN */
+#collection-598fc78fd482e9b47f7086d5 #block-1d821855511522bb6414:hover {
+  -webkit-filter: saturate(1.7);
+  filter: saturate(1.7);
+  
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out; 
+}
+
+/* TRANSITION TO 0 */
+#collection-598fc78fd482e9b47f7086d5 #block-1d821855511522bb6414 {
+  -webkit-filter: saturate(1);
+  filter: saturate(1);
+  
+-webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out; 
+}
+
+
 /* PHOTOGRAPHY */
 #collection-598fc78fd482e9b47f7086d5 #block-a1101d7f979ce9bfc718:hover {
   -webkit-filter: saturate(1.3);
@@ -560,12 +613,6 @@ footer {
 #footerBlock {
  
 }
-/* LANDING PAGE */
-#collection-598fc78fd482e9b47f7086d5 {
-  
-}
-
-
 
 /* HIDE */
 #block-yui_3_17_2_11_1507424073268_14124 {
@@ -585,13 +632,118 @@ footer {
   font-family: 'AvenirLTStd-Roman';
 }
 
+/* CUSTOM SPACER BLOCK SIZE */
+
+/* PHOTOGARPHY PAGE */
+
+/* #1.0 PHOTOGRAPHY */
+#collection-5990f9427131a56b5daa7aef #block-yui_3_17_2_2_1503346575169_9765 {
+  padding-bottom:0 !important;
+}
+
+/* #1  NEED PHOTOS TAKEN */
+#collection-5990f9427131a56b5daa7aef #block-yui_3_17_2_9_1507783581328_57636 {
+  height:1px !important;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+/* #2 CREATIVE COMMONS */
+#collection-5990f9427131a56b5daa7aef #block-yui_3_17_2_18_1507014490086_131596 {
+  height:1px !important;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+/* #3 PHOTO STREAM */
+#collection-5990f9427131a56b5daa7aef #block-yui_3_17_2_3_1507014490086_268501{
+  height:4px !important;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+
+/* VIDEOGRAPHY PAGE */
+
+/* #1.0 VIDEOGRAPHY TITLE */
+#collection-5990f2aa893fc0867d8bb60d #block-f255a70e2089a5bdac38 {
+   padding-bottom:0 !important;  
+}
+
+/* #1 TITLE SPACER */
+#collection-5990f2aa893fc0867d8bb60d #block-556e2b39991f45b3f09f {
+    height:1px !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+/* #2 ALIGN FIX */
+#collection-5990f2aa893fc0867d8bb60d .sqs-block-spacer {
+  border: 2px solid green !important;
+  height: 10px;
+}
+
+/* #2.1 FOG */
+#collection-5990f2aa893fc0867d8bb60d #block-yui_3_17_2_1_1529017727329_19106 {
+  border: 2px solid orange !important;
+  height: 44px !important;
+  padding:0px !important;
+}
+
+/* #2.2 Durvlle Island */
 
 
 
+/* WEB DESIGN PAGE */
+
+/* #1 TITLE SPACER */
+#collection-5990fb424c0dbfafe1fcf184 #block-yui_3_17_2_7_1507509550177_23047 {
+    height:1px !important;
+    padding:0 !important;
+    margin:0 !important;
+  
+}
+
+/* #2 TITLE SPACER */
+#collection-5990fb424c0dbfafe1fcf184 #block-yui_3_17_2_21_1505355745100_6651 {
+  height:25px !important;
+  padding:0 !important;
+  margin:0 !important;
+   
+}
+
+/* #3 TITLE SPACER */
+
+#collection-5990fb424c0dbfafe1fcf184 #block-yui_3_17_2_11_1507783581328_42295 {
+  height:25px !important;
+  padding:0 !important;
+  margin:0 !important;
+  
+}
+
+/* #4 TITLE SPACER */
+#collection-5990fb424c0dbfafe1fcf184 #block-yui_3_17_2_11_1507783581328_40181 {
+  height:25px !important;
+  padding:0 !important;
+  margin:0 !important;
+  
+}
+
+/* CONTACT BUTTON */
 
 
+/* FOOTER PADDING ADJUST */
+#block-yui_3_17_2_8_1506835335066_4526 {
+  height:auto !important;
+  padding-top: 0 !important;
+  padding-bottom:0 !important;
+  margin-bottom:0 !important;
+} 
 
-
+#collection-598fc78fd482e9b47f7086d5 #footer .sqs-block-button {
+  display: none;
+  
+}
 
 
 
