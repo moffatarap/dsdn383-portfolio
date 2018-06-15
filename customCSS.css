@@ -679,18 +679,42 @@ footer {
 
 /* #2 ALIGN FIX */
 #collection-5990f2aa893fc0867d8bb60d .sqs-block-spacer {
-  border: 2px solid green !important;
-  height: 10px;
+  /* border: 2px solid green !important; */
+  
 }
 
 /* #2.1 FOG */
 #collection-5990f2aa893fc0867d8bb60d #block-yui_3_17_2_1_1529017727329_19106 {
-  border: 2px solid orange !important;
   height: 44px !important;
   padding:0px !important;
 }
 
 /* #2.2 Durvlle Island */
+#collection-5990f2aa893fc0867d8bb60d #block-yui_3_17_2_1_1529017727329_22522 {
+  height: 44px !important;
+  padding:0px !important;
+}
+
+/* #2.3 THE LAST STAND */
+#collection-5990f2aa893fc0867d8bb60d #block-yui_3_17_2_1_1529017727329_47789 {
+  height: 44px !important;
+  padding:0px !important;
+}
+
+/* #2.3 THE LAST STAND */
+#collection-5990f2aa893fc0867d8bb60d #block-yui_3_17_2_1_1529017727329_47789 {
+  height: 44px !important;
+  padding:0px !important;
+}
+
+/* #2.4 NILE RIVER */
+#collection-5990f2aa893fc0867d8bb60d #block-yui_3_17_2_1_1528951651159_242899 {
+  height: 124px !important;
+  padding:0px !important;
+}
+
+/* #3 NEED VIDEO ALIGN FIX */
+
 
 
 
